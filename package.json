@@ -1,6 +1,6 @@
 {
-  "name": "password-strength-meter",
-  "version": "6.0.0",
+  "name": "@wise-community/password-strength-meter",
+  "version": "7.0.0",
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
@@ -75,11 +75,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antoantonyk/password-strength-meter.git"
+    "url": "https://github.com/WISE-Community/password-strength-meter.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antoantonyk/password-strength-meter/issues"
+    "url": "https://github.com/WISE-Community/password-strength-meter/issues"
   },
-  "homepage": "https://github.com/antoantonyk/password-strength-meter"
+  "homepage": "https://github.com/WISE-Community/password-strength-meter"
 }
