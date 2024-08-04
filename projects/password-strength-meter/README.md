@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/angular-password-strength-meter.svg)](https://badge.fury.io/js/angular-password-strength-meter)
 [![Coverage Status](https://coveralls.io/repos/github/antoantonyk/password-strength-meter/badge.svg?branch=master)](https://coveralls.io/github/antoantonyk/password-strength-meter?branch=master)
 
-# Password Strength Meter For Angular 17
+# Password Strength Meter For Angular 18
 
 To display the strength of the password with a visual feedback.
 
@@ -26,7 +26,7 @@ Need lib for Vue.js? [Click here](https://github.com/antoantonyk/vue-password-st
 
 ## Get Started
 
-**Step 1:** npm install (For Angular v17)
+**Step 1:** npm install (For Angular v18)
 
 ```sh
 npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 angular-password-strength-meter --save
