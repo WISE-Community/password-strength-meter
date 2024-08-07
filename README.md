@@ -46,7 +46,7 @@ npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 angular-passwor
 ....
 import { bootstrapApplication } from '@angular/platform-browser';
 import { ApplicationConfig } from '@angular/core';
-import { provideZxvbnServiceForPSM } from 'angular-password-strength-meter/zxcvbn';
+import { provideZxvbnServiceForPSM } from '@wise-community/angular-password-strength-meter/zxcvbn';
 ....
 
 export const appConfig: ApplicationConfig = {
@@ -63,7 +63,7 @@ bootstrapApplication(AppComponent, appConfig).catch((err) =>
 
 ```ts
 ....
-import { PasswordStrengthMeterComponent } from 'angular-password-strength-meter';
+import { PasswordStrengthMeterComponent } from '@wise-community/angular-password-strength-meter';
 ....
 
 @Component({
@@ -98,7 +98,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { ApplicationConfig } from '@angular/core';
 
 import { translations } from '@zxcvbn-ts/language-en';
-import { provideZxvbnServiceForPSM, ZxvbnConfigType } from 'angular-password-strength-meter/zxcvbn';
+import { provideZxvbnServiceForPSM, ZxvbnConfigType } from '@wise-community/angular-password-strength-meter/zxcvbn';
 ....
 
 const zxvbnConfig: ZxvbnConfigType = {
@@ -124,7 +124,7 @@ You can override the default password strength meter service by providing the [C
 ```ts
 ....
 import { Injectable } from '@angular/core';
-import { IPasswordStrengthMeterService } from 'angular-password-strength-meter';
+import { IPasswordStrengthMeterService } from '@wise-community/angular-password-strength-meter';
 
 @Injectable()
 export class CustomPsmServiceService extends IPasswordStrengthMeterService {

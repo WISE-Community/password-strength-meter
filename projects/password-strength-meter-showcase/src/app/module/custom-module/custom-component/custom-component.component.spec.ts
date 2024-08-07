@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CustomComponentComponent } from './custom-component.component';
-import { PasswordStrengthMeterComponent } from 'angular-password-strength-meter';
+import { PasswordStrengthMeterComponent } from '@wise-community/angular-password-strength-meter';
 import { FormsModule } from '@angular/forms';
-import { provideZxvbnServiceForPSM } from 'angular-password-strength-meter/zxcvbn';
+import { provideZxvbnServiceForPSM } from '@wise-community/angular-password-strength-meter/zxcvbn';
 
 describe('CustomComponentComponent', () => {
   let component: CustomComponentComponent;

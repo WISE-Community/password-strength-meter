@@ -1,13 +1,13 @@
 {
   "name": "@wise-community/password-strength-meter",
-  "version": "12.0.0",
+  "version": "12.0.4",
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
     "start:dev": "npm-run-all --parallel serve build:lib:watch",
     "build:app": "ng build password-strength-meter-showcase",
     "build:app:prod": "npm run build:app -- --configuration production --output-path docs --base-href password-strength-meter",
-    "build:lib": "ng build password-strength-meter",
+    "build:lib": "ng build @wise-community/password-strength-meter",
     "build:lib:prod": "npm run build:lib -- --configuration production",
     "build:lib:watch": "npm run build:lib -- --watch",
     "build:prod": "npm-run-all build:lib:prod build:app:prod",

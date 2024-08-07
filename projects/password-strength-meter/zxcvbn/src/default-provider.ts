@@ -7,7 +7,7 @@ import {
   ZXCVBN_CONFIG,
   ZxvbnConfigType,
 } from './password-strength-meter.types';
-import { IPasswordStrengthMeterService } from 'angular-password-strength-meter';
+import { IPasswordStrengthMeterService } from '@wise-community/angular-password-strength-meter';
 import { PasswordStrengthMeterZXCVBNService } from './password-strength-meter-zxcvbn.service';
 
 export function provideZxvbnServiceForPSM(

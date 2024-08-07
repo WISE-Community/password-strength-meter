@@ -1,7 +1,7 @@
 import { TestBed, ComponentFixture, waitForAsync } from '@angular/core/testing';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { PasswordStrengthMeterModule } from 'angular-password-strength-meter';
+import { PasswordStrengthMeterComponent } from '@wise-community/angular-password-strength-meter';
 
 import { AppComponent } from './app.component';
 import { By } from '@angular/platform-browser';
@@ -12,7 +12,7 @@ describe('AppComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [ReactiveFormsModule, PasswordStrengthMeterModule.forRoot()],
+      imports: [ReactiveFormsModule, PasswordStrengthMeterComponent],
       declarations: [AppComponent],
     }).compileComponents();
 

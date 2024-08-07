@@ -4,7 +4,7 @@ import { translations } from '@zxcvbn-ts/language-en';
 import {
   FeedbackResult,
   IPasswordStrengthMeterService,
-} from 'angular-password-strength-meter';
+} from '@wise-community/angular-password-strength-meter';
 import {
   ZXCVBN_CONFIG,
   ZxvbnConfigType,

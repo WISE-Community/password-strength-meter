@@ -1,6 +1,6 @@
 module.exports = {
   packages: {
-    'angular-password-strength-meter': {
+    '@wise-community/angular-password-strength-meter': {
       ignorableDeepImportMatchers: [/@zxcvbn\//],
     },
   },

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {
   FeedbackResult,
   IPasswordStrengthMeterService,
-} from 'angular-password-strength-meter';
+} from '@wise-community/angular-password-strength-meter';
 
 @Injectable()
 export class CustomPsmServiceService extends IPasswordStrengthMeterService {

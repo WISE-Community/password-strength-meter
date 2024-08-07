@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {
   IPasswordStrengthMeterService,
   PasswordStrengthMeterComponent,
-} from 'angular-password-strength-meter';
+} from '@wise-community/angular-password-strength-meter';
 import { CustomPsmServiceService } from '../../services/custom-psm-service/custom-psm-service.service';
 import { FormsModule } from '@angular/forms';
 

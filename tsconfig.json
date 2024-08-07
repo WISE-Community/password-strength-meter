@@ -16,13 +16,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "angular-password-strength-meter": [
+      "@wise-community/angular-password-strength-meter": [
         "./dist/password-strength-meter"
       ],
-      "angular-password-strength-meter/*": [
+      "@wise-community/angular-password-strength-meter/*": [
         "./dist/password-strength-meter/*"
       ],
-      "angular-password-strength-meter/zxcvbn": [
+      "@wise-community/angular-password-strength-meter/zxcvbn": [
         "./dist/password-strength-meter/zxcvbn"
       ]
     },

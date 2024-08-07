@@ -1,6 +1,6 @@
 {
   "name": "@wise-community/angular-password-strength-meter",
-  "version": "12.0.0",
+  "version": "12.0.4",
   "dependencies": {
     "tslib": "^2.5.0"
   },
